@@ -3,7 +3,7 @@
 int main() {
             char Estado[20], codigoCarta[4], nomeCidade[20];
             int  Populacao, Numeropontosturisticos;
-            float Areakm2, PIB;
+            float Areakm2, PIB, Densidade = Populacao/Areakm2, PerCapita;
 
             printf("Insira os dados da primeira carta:\n");
 
@@ -36,6 +36,7 @@ int main() {
             printf("Numero de pontos turisticos: %d\n", Numeropontosturisticos);
             printf("Area (em km2): %.2f\n", Areakm2);
             printf("PIB: %.2f\n", PIB);
+            printf("Densidade populacional: %f\n", Densidade);
 
             printf("Insira os dados da segunda carta:\n");
 
